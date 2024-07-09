@@ -44,7 +44,7 @@ const List = () => {
 			<div>
 				<ul className="float-start">
 					{lista.map((item, index) => (
-						<li key={index} className="item-li d-flex flex-row fs-4 float-end">
+						<li key={index} className="item-li d-flex fs-4">
 							{item.texto}
 							<button className="btn btn-light" onClick={() => eliminarTarea(item.id)} style={{ fontSize: '10px' }}>X</button>
 						</li>
